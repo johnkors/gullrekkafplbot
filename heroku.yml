@@ -1,6 +1,6 @@
 build:
   docker:
-    gullrekkabot: /.Dockerfile
+    gullrekkabot: /Dockerfile
 
 run:
   worker:
