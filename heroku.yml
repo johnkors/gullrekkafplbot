@@ -1,0 +1,9 @@
+build:
+  docker:
+    gullrekkabot: /.Dockerfile
+
+run:
+  worker:
+    command:
+      - dotnet ./GullrekkaSlackbot.dll
+    image: gullrekkabot
