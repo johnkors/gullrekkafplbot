@@ -1,0 +1,7 @@
+{
+    "name": "Fplbot sample",
+    "description": "A sample of Fplbot in a separate .NET Core host",
+    "repository": "https://github.com/johnkors/gullrekkaslackbot",
+    "logo": "https://raw.githubusercontent.com/fplbot/fplbot/master/src/Fpl.Client/images/fpl.png",
+    "keywords": [".NET Core", "Slackbot", "Fpl"]
+  }
