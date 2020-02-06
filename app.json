@@ -4,5 +4,29 @@
     "repository": "https://github.com/johnkors/gullrekkaslackbot",
     "logo": "https://raw.githubusercontent.com/fplbot/fplbot/master/src/Fpl.Client/images/fpl.png",
     "keywords": [".NET Core", "Slackbot", "Fpl"],
-    "stack": "container"
+    "stack": "container",
+    "env": {
+        "Slackbot_SlackApiKey_BotUser": {
+          "description": "A Slack token (bot token)",          
+          "required" : true
+        },
+        "fpl__login": {
+          "description": "A username of an account in Fantasy Premier League",
+          "required" : true          
+        },
+        "fpl__password": {
+            "description": "The password of the login to a Fantasy Premier League account",
+            "required" : true          
+        },
+        "fpl__leagueId": {
+            "description": "The leagueId in Fantasy Premier League to follow",
+            "required" : true,
+            "value" : "579157"
+        },
+        "fpl__channel": {
+            "description": "A Slack channel the bot should post to",
+            "required" : true,
+            "value" : "#fpl"
+        }
+      }
   }
